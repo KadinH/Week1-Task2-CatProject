@@ -1,0 +1,19 @@
+html{
+    width: 1000px;
+    position: center;
+    margin: auto;
+    background: 000;
+}
+
+h1{
+    font-family: arial;
+    
+    color: 000;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    position: center;
+}
