@@ -37,26 +37,58 @@ h1{
     color: #FFF;
     font-family: Courier New, Courier, monospace;
     font-weight: lighter;
+    text-align: center;
+    border-bottom: 1px solid white;
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-#catimages{
-    width: 700px;
+#wrapper{
     margin: auto;
+    display: block;
+    width: 60%;
+
+}
+
+#column1, #column2, #column3{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+
+}
+
+#column1{
+    background-color: #FFF;
+
+
+}
+
+#column2{
     background: grey;
+    
+
+}
+
+#column3{
+    background: yellow;
+    
 
 }
 
 #catimage{
-    float: left;
-    margin: 5px;
-    background: #FFF;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
 
 }
 
 #catimage p, #catimage blockquote{
-    margin: auto;
-    width: 200px;
-    text-align: center;
 
 }
 
