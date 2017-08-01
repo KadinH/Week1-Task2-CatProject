@@ -54,34 +54,36 @@ h1{
 }
 
 #column1, #column2, #column3{
-    width: 30%;
+    width: 200px;
     display: inline-block;
     vertical-align: top;
     margin: auto;
+    margin-left: 5px;
 
 }
 
 #column1{
-    background-color: #FFF;
 
 }
 
 #column2{
-    background: grey;
 
 }
 
 #column3{
-    background: yellow;
 
 }
 
 #catimage{
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     display: inline-block;
     vertical-align: top;
     margin: auto;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid white;
 
 }
 
@@ -90,7 +92,8 @@ h1{
 }
 
 #catimage img{
-    width: 200px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
 
 footer{
